@@ -8,7 +8,9 @@
 
     <div class="flex justify-between items-center mt-auto gap-2">
         <div class="flex flex-wrap gap-2">
-            <x-tag>Tag</x-tag>
+            <x-tag size="small">Backend</x-tag>
+            <x-tag size="small">Frontend</x-tag>
+            <x-tag size="small">Devops</x-tag>
         </div>
 
         <x-employer-logo :width="42" />
