@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pixel Positions</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
     @vite(['resources/js/app.js'])
 </head>
 
@@ -30,7 +33,7 @@
             </div>
         </nav>
 
-        <main class="mt-10 w-full max-w-[986px] mx-auto px-4">
+        <main class="my-10 w-full max-w-[986px] mx-auto px-4">
             {{ $slot }}
         </main>
     </div>

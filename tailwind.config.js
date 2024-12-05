@@ -15,7 +15,10 @@ export default {
                 black: "#060606",
             },
             fontFamily: {
-                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
+                sans: ["Hanken Grotesk", ...defaultTheme.fontFamily.sans],
+            },
+            fontSize: {
+                "2xs": "0.625rem",
             },
         },
     },
