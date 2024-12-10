@@ -4,10 +4,9 @@
         <section class="flex flex-col pt-6 pb-10 items-center justify-center gap-6 text-center">
             <h1 class="font-bold text-4xl">Let's Find Your Next Job</h1>
 
-            <form action="" class="w-full max-w-xl">
-                <input type="text" placeholder="Web Developer..."
-                    class="rounded-xl bg-white/5 border border-white/10 px-5 py-4 w-full">
-            </form>
+            <x-forms.form action="/search" class="w-full">
+                <x-forms.input :label="false" name="q" placeholder="Web Developer..." />
+            </x-forms.form>
         </section>
 
         <section>
